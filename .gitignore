@@ -107,3 +107,4 @@ dist
 *.bak
 *.bak*
 config.json
+data.json
