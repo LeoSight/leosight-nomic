@@ -20,3 +20,15 @@ A následně také soubor **config.json** s obsahem:
 }
 ```
 (Jak bot interaguje s jednotlivými místnostmi podle těchto proměnných naleznete vysvětleno v komentářích v **index.js**)
+
+A nakonec soubor, do kterého bude bot ukládat data o probíhající hře **data.json**, obsahující úvodní pravidla ve formátu:
+```js
+{
+  "total": 2,
+  "rules": [
+    "[1] Každý návrh musí být schválen alespoň polovinou hráčů, aby byl přijat. V případě lichého počtu hráčů pak větší polovinou. Hlasování trvá 12 hodin, není-li ukončeno předčasně.",
+    "[2] Hlasování o každém návrhu bude ukončeno předčasně, pokud odhlasoval dostatečný počet hráčů pro jednoznačné přijetí/zamítnutí návrhu."
+  ],
+  "players": {}
+}
+```
