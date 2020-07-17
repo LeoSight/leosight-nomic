@@ -1,13 +1,10 @@
 {
   "name": "leosight-nomic",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "LeoSight.cz",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^11.5.1",
     "dotenv": "^8.2.0"
